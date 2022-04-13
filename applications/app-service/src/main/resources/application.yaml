@@ -1,0 +1,11 @@
+##Spring Configuration
+server:
+  port: 8080
+spring:
+  webflux:
+    base-path: /api/v1
+  application:
+    name: tasks
+routes:
+  tasks: "/tasks"
+  employees: "/employees"
